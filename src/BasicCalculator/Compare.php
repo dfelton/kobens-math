@@ -23,7 +23,7 @@ final class Compare
      * @param string $rightOperand
      * @return string
      */
-    public static function getResult(string $leftOperand, string $rightOperand): string
+    public static function getResult(string $leftOperand, string $rightOperand): int
     {
         return \bccomp($leftOperand, $rightOperand, self::getPrecision($leftOperand, $rightOperand));
     }
