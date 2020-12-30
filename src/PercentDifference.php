@@ -25,7 +25,7 @@ final class PercentDifference
             $result = '-100';
         } else {
             $absDiff = Subtract::getResult($newValue, $origValue);
-            $result = Divide::getResult($absDiff, $origValue, $scale+2);
+            $result = Divide::getResult($absDiff, $origValue, $scale + 2);
             $result = Multiply::getResult($result, '100');
         }
         return $result;
