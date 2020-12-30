@@ -1,6 +1,6 @@
 {
     "name": "kobens/kobens-math",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Library for arithmetic operations.",
     "type": "library",
     "license": "BSD-3-Clause",
