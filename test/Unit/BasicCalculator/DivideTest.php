@@ -28,4 +28,10 @@ final class DivideTest extends TestCase
         $this->assertEquals('33.3',  Divide::getResult('100', '3', 1));
         $this->assertEquals('33.33', Divide::getResult('100', '3', 2));
     }
+
+    public function testDividingByZeroThrowsException(): void
+    {
+        $this->expectException(\InvalidArgumentException::class);
+        Divide::getResult('1', '0', 1);
+    }
 }
