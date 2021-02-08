@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Kobens\Math;
 
 use Kobens\Math\BasicCalculator\Compare;

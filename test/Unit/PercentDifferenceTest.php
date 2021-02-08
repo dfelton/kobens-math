@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace KobensTest\Math;
 
 use Kobens\Math\PercentDifference;
